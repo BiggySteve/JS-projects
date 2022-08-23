@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Crypto Form</title>
+</head>
+<body>
+
+<h1 id="title">Investing in cryptocurrency</h1>
+
+<p id="description">Complete the details below to see how much you love cryptocurrency</p>
+
+<form id="survey-form">
+  
+  <label for="name" id="name-label"> Name </label>
+    <input id="name" type="text" name="name" placeholder="Benjamin Graham" required> </input>
+      <br>
+      
+  <label for="email" id="email-label"> Email Address </label>
+    <input id="email" type="email" name="email" placeholder="name@example.com" required> </input>
+      <br>
+
+  <label for="number" id="number-label"> Age </label>
+    <input id="number" type="number" name="number" placeholder="21" min="18" max="120" required> </input>
+      <br>
+
+  <label for="dropdown" id="question1"> Have you ever invested in cryptocurrency? </label>
+    <select id="dropdown">
+      <option value="yes"> Yes </option>
+      <option value="no"> No </option>
+      <option value="maybe"> I haven't but I might </option> 
+    </select>
+      <br>
+        <br>
+   <label for="dropdown" id="question2"> Do you think cryptocurrency is safe to invest into? </label>
+     <select id="dropdown">
+      <option value="yes"> Yes </option>
+      <option value="no"> No </option>
+      <option value="maybe"> I have no idea </option> 
+    </select>
+      <br>
+        <br>
+    <label for="question3"> If no, then why not? </label>
+      <br>
+     <input id="checkbox" type="checkbox" name="question3" value="hacking">
+       <label for="checkbox"> I am scared of being hacked  </label>
+        <br>
+       <input id="checkbox" type="checkbox" name="question3" value="not_sure">
+       <label for="checkbox"> I don't understand enough about it </label> 
+        <br>
+       <input id="checkbox" type="checkbox" name="question3" value="volatility">
+       <label for="checkbox"> It is too volatile  </label>  
+        <br>
+       <input id="checkbox" type="checkbox" name="question3" value="all">
+       <label for="checkbox"> All of the above  </label>
+        <br>
+       <input id="checkbox" type="checkbox" name="question3" value="none">
+       <label for="checkbox"> None of the above </label>
+        <br>
+        <br>
+    <label for="question4" id="question4"> If yes, are you happy with your investment? </label>
+        <br>
+       <input id="question4" type="radio" id="yes" name="answer" value="yes"
+       <label for="question4"> Yes </label>
+        <br>
+       <input id="question4" type="radio" id="no" name="answer" value="no"
+       <label for="question4"> No </label>
+        <br>
+       <input id="question4" type="radio" id="not_sure" name="answer" value="not_sure"
+       <label for="question4"> I don't know yet </label>
+        <br>
+        <br>
+    <label id="textarea"> Comments </label>
+      <br>
+    <textarea name="instructions" id="textarea" cols="30" rows="7">
+      
+    </textarea>
+      <br>
+    <input type="submit" id="submit"> 
+</form>
+
+</body>
+</html>
