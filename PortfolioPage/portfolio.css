@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Sarpanch:wght@500&display=swap');
+
+body {
+  font-family: 'nunito';
+  color: white;
+  background-color: black;
+  line-height: 1.4;
+  width: 100%;
+}
+
+/* NAV BAR START */
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 19px;
+  padding: 25px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  opacity: .7;
+  z-index: 5;
+}
+
+header a {
+  margin-right: 2rem;
+  color: gray;
+  text-decoration: none;
+  z-index: 5;
+}
+
+header a:hover{
+  margin-right: 2rem;
+  color: white;
+  text-decoration: underline;
+  z-index: 5;
+}
+
+header h3 {
+  font-family: orbitron;
+  margin-right: 2rem;
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px orange;
+}
+/* NAV BAR END */
+
+/* WELCOME START */
+#welcome-section {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 10vw;
+  left: 0vw;
+  z-index: 2;
+}
+
+#welcome-section h1 {
+  font-family: newsreader;
+  text-shadow: 2px 2px 5px orange;
+  text-align: left;
+  font-size: 3vw;
+  color: silver;
+  position: absolute;
+  top: 5vw;
+  left: 7vw;
+}
+
+#welcome-section h2 {
+  text-align: left;  
+  font-size: 4vw;
+  text-shadow: 2px 2px 5px orange;
+  color: white;
+  position: absolute;
+  top: 10vw;
+  left: 7vw;
+  border-bottom: 1px solid blue; 
+  padding-bottom: 3px;
+  border-bottom-width: 1px; 
+  word-spacing: 2px;
+  letter-spacing: 5px;
+}
+
+/* WELCOME END */
+
+/* PROJECTS START */
+#projects {
+  width: 100%;
+  height: auto; 
+  position: absolute;
+  top: 46vw;
+  left: 0vw;
+  z-index: 2;
+}
+
+#projects h3{
+  text-align: left;  
+  font-size: 3vw;
+  color: white;
+  text-shadow: 2px 2px 5px orange;
+  position: absolute;
+  top: 2vw;
+  left: 2vw;
+  border-bottom: 1px solid blue; 
+  border-bottom-width: 1px; 
+  word-spacing: 2px;
+  letter-spacing: 5px;
+}
+
+/* PROJECTS END */
+
+/* START SKILLS */
+#skills {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 46vw;
+  left: 0vw;
+  z-index: 2;
+}
+/* END SKILLS */
+
+/* START CONTACT */
+
+#contact {
+  width: 75%;
+  height: auto;
+  position: absolute;
+  top: 98vw;
+  left: 22vw;
+  z-index: 2;
+}
+
+
+#contact h3{
+  text-align: left;  
+  font-size: 3vw;
+  color: white;
+  text-shadow: 2px 2px 5px orange;
+  position: absolute;
+  top: 2vw;
+  left: 2vw;
+  border-bottom: 1px solid blue; 
+  border-bottom-width: 1px; 
+  word-spacing: 2px;
+  letter-spacing: 5px;
+}
+
+
+#contact h6 {
+  text-align: left;  
+  font-size: 1.5vw;
+  color: silver;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 10vw;
+  left: 3vw;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  border-bottom: 1px solid blue; 
+  padding-bottom: 5vw;
+}
+
+#codepen {
+  width: 5vw;
+  text-align: left;   
+  position: absolute;
+  top: 43vw;
+  left: 3vw;
+  opacity: 0.85;
+  z-index: 3;
+}
+
+#github {
+  width: 5vw;
+  text-align: left;  
+  position: absolute;
+  top: 43vw;
+  left: 10vw;
+  opacity: 0.85;
+  z-index: 3;
+}
+
+#linkedin {
+  width: 5vw;
+  text-align: left;  
+  position: absolute;
+  top: 43vw;
+  left: 17vw;
+  opacity: 0.85;
+  z-index: 3;
+}
+/* END CONTACT */
+
+/* START MOBILE PHONES */
+@media only screen and (max-width: 800px)
+{
+  header {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 2vw;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 5;
+  }
+}
+/* END MOBILE PHONES */
